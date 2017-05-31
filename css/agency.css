@@ -6,6 +6,7 @@
 body {
   overflow-x: hidden;
   font-family: 'Baloo Chettan', sans-serif;
+  font-size: 18px;
 }
 .text-muted {
   color: #777777;
@@ -14,11 +15,11 @@ body {
   color: #00b500;
 }
 p {
-  font-size: 14px;
+  font-size: 16px;
   line-height: 1.75;
 }
 p.large {
-  font-size: 16px;
+  font-size: 18px;
 }
 a,
 a:hover,
@@ -285,9 +286,10 @@ section h2.section-heading {
   margin-bottom: 15px;
 }
 section h4.player-heading {
+  font-family: 'Baloo Chettan', sans-serif;
   font-size: 30px;
   margin-top: 0;
-  magin-bottom: 15px;
+  margin-bottom: 15px;
 }
 section h3.section-subheading {
   font-size: 16px;
