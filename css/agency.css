@@ -284,6 +284,11 @@ section h2.section-heading {
   margin-top: 0;
   margin-bottom: 15px;
 }
+section h4.player-heading {
+  font-size: 30px;
+  margin-top: 0;
+  magin-bottom: 15px;
+}
 section h3.section-subheading {
   font-size: 16px;
   font-family: "Merriweather", sans-serif;
