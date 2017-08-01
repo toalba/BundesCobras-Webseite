@@ -767,6 +767,22 @@ body {
 .bg-darkest-gray {
   background-color: #8ec9b5;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #116549;
+}
+.timeline .timeline-heading h1,
+.timeline .timeline-heading h2,
+.timeline .timeline-heading h3,
+.timeline .timeline-heading h4,
+.timeline .timeline-heading h5,
+.timeline .timeline-heading h6 {
+  color: #116549;
+}
 @media (min-width: 768px) {
   .container.cobra {
     margin-top: 0;
