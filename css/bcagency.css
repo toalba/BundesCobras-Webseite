@@ -751,7 +751,7 @@ body {
   webkit-tap-highlight-color: #00b500;
 }
 .navbar-brand {
-  padding: 0px;
+  padding: 3px;
 }
 .container.cobra {
   background-image: url('../img/cobra.png');
@@ -764,5 +764,8 @@ body {
 @media (min-width: 768px) {
   .container.cobra {
     margin-top: 0;
+  }
+  .navbar-brand {
+    padding: 0px;
   }
 }
