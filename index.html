@@ -81,7 +81,60 @@
         </div>
     </header>
 
-   
+   <!-- Services Section -->
+   <section id="services" class="bg-light-gray">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h2 class="section-heading">Channels</h2>
+                <h3 class="section-subheading text-muted">Unsere Social Networks</h3>
+            </div>
+        </div>
+    </div>
+    <!-- Add a placeholder for the Twitch embed -->
+<div id="twitch-embed"class="text-center"></div>
+
+
+<!-- Load the Twitch embed script -->
+<script src="https://embed.twitch.tv/embed/v1.js"></script>
+
+<!-- Create a Twitch.Embed object that will render within the "twitch-embed" root element. -->
+<script type="text/javascript">
+new Twitch.Embed("twitch-embed", {
+width: 1200,
+height: 600,
+channel: "BundesCobra"
+});
+</script>
+        <div class="row text-center">
+            <div class="col-md-4">
+                <a class="fa-stack fa-4x" href="https://twitter.com/bundescobras">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                </a>
+                
+                <h4 class="service-heading" >Twitter</h4>
+                
+            </div>
+            <div class="col-md-4">
+                <a class="fa-stack fa-4x"href="https://www.youtube.com/channel/UC7hYs11QQMw-jMW5W4l8EGg">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
+                </a>
+                <h4 class="service-heading">Youtube</h4>
+                
+            </div>
+            <div class="col-md-4">
+                <a class="fa-stack fa-4x"href= "https://www.twitch.tv/bundescobras">
+                    <i class="fa fa-circle fa-stack-2x text-primary"></i>
+                    <i class="fa fa-twitch fa-stack-1x fa-inverse"></i>
+                </a>
+                <h4 class="service-heading">Twitch</h4>
+                
+            </div>
+        </div>
+    </div>
+</section>
 
     <!-- Portfolio Grid Section -->
     <section id="portfolio" class="bg-light-gray">
@@ -91,7 +144,7 @@
                     <h2 class="section-heading">Teams & Games</h2>
                     <h3 class="section-subheading text-muted">Hier sind unsere Teams und Netzwerke.</h3>
                 </div>
-            </div>
+           
             <div class="row">
                 <div class="col-md-4 col-sm-6 portfolio-item">
                     <a href="http://www.clan-name.esl.eu/de/team/11253901/" class="portfolio-link" data-toggle="modal">
@@ -183,44 +236,7 @@
 
   
 
-<!-- Services Section -->
-    <section id="services" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Channels</h2>
-                    <h3 class="section-subheading text-muted">Unsere Social Networks</h3>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <a class="fa-stack fa-4x" href="https://twitter.com/bundescobras">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
-                    </a>
-                    
-                    <h4 class="service-heading" >Twitter</h4>
-                    
-                </div>
-                <div class="col-md-4">
-                    <a class="fa-stack fa-4x"href="https://www.youtube.com/channel/UC7hYs11QQMw-jMW5W4l8EGg">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-youtube-play fa-stack-1x fa-inverse"></i>
-                    </a>
-                    <h4 class="service-heading">Youtube</h4>
-                    
-                </div>
-                <div class="col-md-4">
-                    <a class="fa-stack fa-4x"href= "https://www.twitch.tv/bundescobras">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-twitch fa-stack-1x fa-inverse"></i>
-                    </a>
-                    <h4 class="service-heading">Twitch</h4>
-                    
-                </div>
-            </div>
-        </div>
-    </section>
+
     
 
     <!-- Contact Section -->
